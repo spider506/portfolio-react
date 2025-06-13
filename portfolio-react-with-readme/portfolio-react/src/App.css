@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 30px 20px;
+}
+
+.main-content {
+  width: 70%;
+  padding: 40px;
+  background: #f7f9fc;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin-bottom: 0;
+}
+.sidebar a {
+  color: #00ccff;
+}
+.sidebar ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+.main-content h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 4px;
+}
